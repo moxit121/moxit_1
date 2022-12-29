@@ -1,4 +1,7 @@
 #include<stdio.h>
+
+// display personal details by printf function.
+
 void main()
 {
 	printf("-----------------------------------------");

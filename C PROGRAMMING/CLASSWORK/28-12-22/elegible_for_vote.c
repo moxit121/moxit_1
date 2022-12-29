@@ -1,10 +1,10 @@
 #include<stdio.h>
 
+// Eligible for Voting or not.
+
 void main()
 {
 	int age;
-	
-	printf("\t\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2");
 	printf("\n\t Enter Your Age : ");
 	scanf("%d",&age);
 	

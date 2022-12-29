@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+//area of rectangle = length*width.
+
 void main ()
 {
 	float length,width,area;

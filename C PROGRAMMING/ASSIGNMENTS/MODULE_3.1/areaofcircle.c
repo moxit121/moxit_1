@@ -1,6 +1,8 @@
 //WAP to find area of circle, rectangle and triangle
 #include<stdio.h>
 
+//area of circle = πr²
+
 void main()
 {
 	float area,radius;

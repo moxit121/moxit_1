@@ -1,4 +1,7 @@
 #include<stdio.h>
+
+//convert year to day
+
 void main()
 {
 	float day,year,cnvrt_year,cnvrt_day;

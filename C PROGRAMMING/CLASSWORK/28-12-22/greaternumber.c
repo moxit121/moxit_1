@@ -1,10 +1,10 @@
 #include<stdio.h>
 
-void main()
+// find which number is greater.
 
+void main()
 {
 	int a,b;
-	printf("\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2\xb2");
 	printf("\n Enter first number = ");
 	scanf("%d",&a);
 	printf(" Enter secong number = ");

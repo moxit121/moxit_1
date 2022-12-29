@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+// arithmetic operators
+
 void main()
 {
 	int a;
