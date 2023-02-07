@@ -2,31 +2,59 @@
 
 int add(int d,int g)
 {
-	printf("\n\t Inside UDF A = %d, B = %d",d,g);
+	cout<<"\n\t Inside UDF A = %d, B = %d"<<d,g;
 	return d+g;
+}
+int sub(int d,int g)
+{
+	cout<<"\n\t Inside UDF A = %d, B = %d"<<d,g;
+	return d-g;
+}
+int mul(int d,int g)
+{
+	cout<<"\n\t Inside UDF A = %d, B = %d"<<d,g;
+	return d*g;
+}
+int div(int d,int g)
+{
+	cout<<"\n\t Inside UDF A = %d, B = %d"<<d,g;
+	return d/g;
 }
 int main()
 {
-	int a,b,sum;
+	int a,b,choice,sum;
 	
-	printf("\n\t Take input from user nd pass value in UDF:");
-	printf("\n\t Enter A = ");
-	scanf("%d",&a);
-	printf("\t Enter B = ");
-	scanf("%d",&b);
+	cout<<"\n\t Take input from user nd pass value in UDF:";
+	cout<<"\n\t Enter A = ";
+	cin>>a;
+	cout<<"\t Enter B = ";
+	cin>>b;
 	
-	printf("\n\t --------------------------------------------");
-	printf("\n\t Start Function");
-	sum = add(a,b);
-	printf("\n\t Addition = %d",sum);
-	if(sum%2==0)
+	cout<<"\n\t --------------------------------------------";
+	if(choice==1)
 	{
-		printf("\n\t It is Even.");
+		sum = add(a,b);
+		printf("\n\t Addition = %d",sum);
+		printf("\n\t--------------------------------------------");
 	}
-	else{
-		printf("\n\t It is Odd.");
+	if(choice==2)
+	{
+		sum = sub(a,b);
+		printf("\n\t Subtraction = %d",sum);
+		printf("\n\t--------------------------------------------");
 	}
-	printf("\n\t Stop Function");
-	printf("\n\t--------------------------------------------");
+	if(choice==3)
+	{
+		sum = mul(a,b);
+		printf("\n\t Multiplication = %d",sum);
+		printf("\n\t--------------------------------------------");
+	}
+	if(choice==4)
+	{
+		sum = div(a,b);
+		printf("\n\t Division = %d",sum);
+		printf("\n\t--------------------------------------------");
+	}	
+	
 	
 }
